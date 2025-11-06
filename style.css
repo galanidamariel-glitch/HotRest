@@ -15,8 +15,8 @@ img {
   height: auto;
 }
 .navbar {
-    width: 2000px;
-    height: 100px;
+    width: 950px;
+    height: 50px;
     margin: auto;
 }
 
@@ -247,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
