@@ -8,7 +8,7 @@
     background: linear-gradient(to top, rgba(0,0,0,1)100%,rgba(0,0,0,1)100%), url(backg2.jpeg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 200vh;
 }
 img {
   max-width: 100%;
@@ -247,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
