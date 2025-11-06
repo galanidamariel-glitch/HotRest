@@ -8,14 +8,14 @@
     background: linear-gradient(to top, rgba(0,0,0,1)100%,rgba(0,0,0,1)100%), url(backg2.jpeg);
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 150vh;
 }
 img {
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
 }
 .navbar {
-    width: 1500px;
+    width: 2000px;
     height: 100px;
     margin: auto;
 }
@@ -247,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
