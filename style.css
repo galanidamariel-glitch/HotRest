@@ -4,40 +4,22 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 }
-
-
-section, header, main, footer {
-  width: 50%;
-  box-sizing: border-box;
-}
-
 img {
   max-width: 500%;
   height: auto;
 }
 
-h1, h2, h3, p {
-  text-align: center;
-  word-wrap: break-word;
-}
 @media (max-width: 150) {
   .container, .content, .login-box {
     width: 50%;
     margin: 0 auto;
     float: none;
   }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .login-box {
     position: relative;
     right: 0;
     margin-top: 20px;
   }
-} 
 * {
     margin: 0;
     padding: 0;
@@ -284,4 +266,5 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
