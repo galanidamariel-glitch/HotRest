@@ -4,7 +4,7 @@
 }
 
 .main {
-    width: 200;
+    width: 500;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(backg2.jpeg);
     background-position: center;
     background-size: cover;
@@ -247,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
