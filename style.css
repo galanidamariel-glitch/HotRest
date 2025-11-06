@@ -4,13 +4,16 @@
 }
 
 .main {
-    width: 100;
+    width: 200;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(backg2.jpeg);
     background-position: center;
     background-size: cover;
     height: 109vh;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .navbar {
     width: 1200px;
     height: 75px;
@@ -87,8 +90,8 @@ ul li a:hover {
 } 
 
 .btn {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     background: lightblue;
     border: 2px solid #666;
     margin-top: 13px;
@@ -107,7 +110,7 @@ ul li a:hover {
 }
 
 .content {
-    width: 1500px;
+    width: 2000px;
     height:auto;
     margin: auto;
     color: white;
@@ -115,8 +118,8 @@ ul li a:hover {
 }
 
 .content .par {
-    padding-left: 50px;
-    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-bottom: 80px;
     font-family: arial;
     letter-spacing: 1.2px;
     line-height: 30px;
@@ -124,15 +127,15 @@ ul li a:hover {
 
 .content h1 {
     font-family:'times new roman';
-    font-size: 50px;
-    padding-left: 50px;
+    font-size: 100px;
+    padding-left: 25px;
     margin-top: 9px;
     letter-spacing: 2px;
 }
 
 .content .cn {
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
     background: blue;
     border: none;
     margin-bottom: 10px;
@@ -154,33 +157,33 @@ ul li a:hover {
 }
 
 .form {
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     border-radius: 10px;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
+    top: 200px;
     left: 870px;
 }
 
 .form h2{
-    width: 220px;
+    width: 250px;
     font-family: sans-serif;
     text-align: center;
     color: blue;
     font-size: 22px;
     background-color: white;
     border-radius:1 10px;
-    margin: 2px;
-    padding: 8px;
+    margin: 20px;
+    padding: 80px;
 }
 
 .form input {
-    width: 280px;
-    height: 35px;
+    width: 300px;
+    height: 50px;
     background: transparent;
     border-bottom: 1px solid lightblue;
     border-top: none;
@@ -189,7 +192,7 @@ ul li a:hover {
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: sans-serif;
 }
 
@@ -203,12 +206,12 @@ ul li a:hover {
 }
 
 .btnn {
-    width: 240px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     background: lightblue;
     border: none;
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top: 50px;
+    font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
@@ -244,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
