@@ -21,9 +21,9 @@ img {
 }
 
 .icon {
-    width: 200px;
-    float: left;
-    height: 70px;
+    width: 300px;
+    float: right;
+    height: 80px;
 }
 
 .logo {
@@ -247,6 +247,7 @@ ul li a:hover {
     text-align: center;
 
 }
+
 
 
 
