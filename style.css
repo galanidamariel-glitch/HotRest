@@ -1,3 +1,45 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Make background and sections stretch full width */
+section, header, main, footer {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive text alignment and scaling */
+h1, h2, h3, p {
+  text-align: center;
+  word-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .container, .content, .login-box {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-box {
+    position: relative;
+    right: 0;
+    margin-top: 20px;
+  }
+} 
 * {
     margin: 0;
     padding: 0;
@@ -242,4 +284,5 @@ ul li a:hover {
     padding-top: 15px;
     padding-bottom: 40px;
     text-align: center;
+
 }
